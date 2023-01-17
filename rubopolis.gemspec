@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.name        = 'rubopolis'
   s.version     = Rubopolis::Version::WRAPPER_VERSION
   s.summary     = 'Custom rubocop for Rails project'
-  s.description = 'Custom rubocop for Rails project'
+  s.description = 'All custom rubocop for Rails project'
   s.authors     = ['Eileen Kang']
   s.email       = 'eileen_kang@tech.gov.sg'
   s.files       = Dir['lib/**/*.rb', 'README.md']
@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec', '~> 3.12'
   s.add_development_dependency 'rubocop', '~> 1.33'
-  s.add_development_dependency 'rubocop-rails'
+  s.add_development_dependency 'rubocop-rails', '~> 2.17'
   s.add_development_dependency 'simplecov', '~> 0.22'
-  s.add_development_dependency 'timecop'
+  s.add_development_dependency 'timecop', '~> 0.9.6'
 
-  s.add_runtime_dependency 'rubocop', '~> 1.33'
-  s.add_runtime_dependency 'rubocop-rails'
+  s.add_runtime_dependency 'rubocop', '~> 1.3'
+  s.add_runtime_dependency 'rubocop-rails', '~> 2'
 end
