@@ -1,0 +1,12 @@
+Cop/MigrationFilename:
+  Description: 'Enforce the database migration filename is not a future date'
+  Enabled: true
+  VersionAdded: '0.0.1'
+Cop/QueryInject:
+  Description: 'Ensure code does not have an query inject-able code'
+  Enabled: true
+  VersionAdded: '0.0.1'
+Cop/TimeUsage:
+  Description: 'Use `Time.current` or `Date.current` instead for standardisation.'
+  Enabled: true
+  VersionAdded: '0.0.1'

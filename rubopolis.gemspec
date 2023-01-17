@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = 'All custom rubocop for Rails project'
   s.authors     = ['Eileen Kang']
   s.email       = 'eileen_kang@tech.gov.sg'
-  s.files       = Dir['lib/**/*.rb', 'README.md']
+  s.files       = Dir['lib/**/*.rb', 'config/default.yml', 'README.md']
   s.homepage    = 'https://github.com/GovTechSG/rubopolis'
   s.license     = 'MIT'
   s.metadata    = { 'rubygems_mfa_required' => 'true' }
