@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require './spec/cop_helper'
-require './lib/rubopolis/time_usage'
+require './lib/rubopolis/cop/time_usage'
 
-RSpec.describe Rubopolis::TimeUsage, :config do
+RSpec.describe Rubopolis::Cop::TimeUsage, :config do
   describe 'Time class usage' do
     it 'registers an offense when using `#Time.zone.now` to get current date time' do
       expect_offense(<<~RUBY)

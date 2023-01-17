@@ -2,9 +2,9 @@
 
 require 'timecop'
 require './spec/cop_helper'
-require './lib/rubopolis/migration_filename'
+require './lib/rubopolis/cop/migration_filename'
 
-RSpec.describe Rubopolis::MigrationFilename, :config do
+RSpec.describe Rubopolis::Cop::MigrationFilename, :config do
   before do
     Timecop.travel(Time.local(2022, 2, 22, 8, 0, 2))
   end

@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require './spec/cop_helper'
-require './lib/rubopolis/query_injection'
+require './lib/rubopolis/cop/query_injection'
 
-RSpec.describe Rubopolis::QueryInjection, :config do
+RSpec.describe Rubopolis::Cop::QueryInjection, :config do
   describe '#find_by' do
     it 'registers an offense when using `#find_by` with string' do
       expect_offense(<<~RUBY)
