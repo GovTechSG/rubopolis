@@ -11,12 +11,12 @@ These are the list of custom cops in this project right now:
 ## Installation
 Add rubopolis gem to you application:
 ```
-TODO
+gem 'rubopolis', require: false
 ```
 
 ## Contribute
 Contributions are welcome!
 
-Fork the repository
-Write code and tests
-Submit a PR
+1. Fork the repository
+2. Write code and tests
+3. Submit a PR
